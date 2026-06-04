@@ -6,7 +6,7 @@ import { CourseData } from "@/lib/supabase";
 
 // Safely map dynamic database strings to Lucide components
 const getIcon = (iconName: string) => {
-  const Icon = (LucideIcons as Record<string, React.ElementType>)[iconName];
+  const Icon = (LucideIcons as unknown as Record<string, React.ElementType>)[iconName];
   if (!Icon) return <LucideIcons.Book className="w-6 h-6" />;
   return <Icon className="w-6 h-6" />;
 };
