@@ -1,4 +1,4 @@
-# NeuroLearn OS - Student Dashboard
+# Next Gen Learning Student Dashboard
 
 Hey! This is my submission for the Frontend Intern Challenge. I built this prototype utilizing the Next.js App Router, combining Server-Side Rendering (SSR) for secure data fetching with Framer Motion for hardware-accelerated client-side interactions.
 
